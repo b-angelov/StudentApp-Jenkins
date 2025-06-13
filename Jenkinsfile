@@ -32,7 +32,7 @@ pipeline{
 
         stage("Start server"){
             steps{
-                    bat 'npm start -- --port 8081'
+                    bat 'npm start -- --port 8085'
                 }
         }
 
