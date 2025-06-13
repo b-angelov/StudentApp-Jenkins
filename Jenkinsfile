@@ -32,7 +32,7 @@ pipeline{
 
         stage("Start server"){
             steps{
-                    bat 'set PORT=8081 && npm start'
+                    bat 'set PORT=8081 && start node "" index.js'
                 }
         }
 
